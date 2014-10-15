@@ -37,7 +37,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## 'x' should be from th form returned by 'makeCacheMatrix'
 cacheSolve <- function(x, ...) {
     
-        ## check for existing chached value
+        ## check for existing cached value
         inv <- x$getinv()
         if(!is.null(inv)) {
             message("getting cached data")
